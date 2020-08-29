@@ -31,7 +31,7 @@ function viewCart() {
     while (i < cart.length) {
       cart.splice(i,0,``)
       i++;
-    } 
+    }
   }
 }
 
