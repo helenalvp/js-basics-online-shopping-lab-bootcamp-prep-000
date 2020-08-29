@@ -23,7 +23,16 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  if (cart.length = 0){
+    return "Your shopping cart is empty."
+  } else {
+    //while loop first but i need to add the extra strings somehow
+    var i = 0;
+    while (i < cart.length) {
+      cart.splice(i,0,``)
+      i++;
+    } 
+  }
 }
 
 function total() {
